@@ -6,6 +6,7 @@
 2) Submit a POST request to http://127.0.0.1:5000/cashgpt/predict
 
 Example post requests:
+```
 {
     "complaint_included": false,
     "AGE": 65,
@@ -20,6 +21,8 @@ Example post requests:
     "Duration": 50,
     "Company": "Anthem Health Plans, Inc"
 }
+```
+```
 {
     "complaint_included": true,
     "AGE": 37,
@@ -36,3 +39,4 @@ Example post requests:
     "Coverage": "A & H",
     "SubReason": "Claim Delay"
 }
+```
