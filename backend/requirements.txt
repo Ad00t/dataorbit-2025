@@ -2,6 +2,8 @@ kagglehub
 pandas
 numpy
 scikit-learn
+flask
+flask-cors
 groq
 langchain
 langchain-core
