@@ -10,20 +10,19 @@ Our project revolutionizes auto insurance claims processing with AI-driven predi
 
 We built this project using predictive modeling. We combined the results of two independent models trained on two separate datasets, an initial claims model (Logistic Regression, ~80% accuracy) and a complaints model (Random Forest, ~90% accuracy), using marginal probabilities to predict the probability of an initial claim, or an initial claim + complaint being approved. We also built a REST API to provide easy access to the model.
 
-Complaints dataset: https://www.kaggle.com/datasets/adelanseur/insurance-company-complaints 
+Complaints dataset: https://www.kaggle.com/datasets/adelanseur/insurance-company-complaints
+
 Initial claims dataset: https://www.kaggle.com/datasets/xiaomengsun/car-insurance-claim-data
 
 We spent a lot of time looking for good datasets for health and life insurance, but eventually we realized there's a lot more data available for auto insurance, so we pivoted. We also had some trouble with the combination of the results of the two models, and optimizing the transformations applied to both datasets we used.
-Accomplishments that we're proud of
 
 We are very proud of what we accomplished because this was the first time we have ever worked together and we were very productive in such little amount of time.
-What we learned
 
 Given that it was all our first datathon, we all learned so much about how these competitions go. We learned how to work very efficiently and the ins and outs of predictive modeling.
 
 ## Video Summary
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-75TE_8CNmc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://github.com/user-attachments/assets/31d4214a-b239-4b23-a067-94633fb4784f
 
 ## How to run
 
